@@ -1,14 +1,9 @@
 module.exports = {
     app : {
-        // Discord Bot Token from https://discord.com/developers/
         token: 'XXX',
-        // Discord Bot Status
         playing: 'giveaways 🎉',
-        // Database URL from https://mongodb.com/
         mongodb: 'XXX',
-        // If you only want to have slash commands for one guild, leave false.
         globalCommands: false,
-        // If you chose false above, put the guild id where you want to have slash commands.
         slashGuild: 'XXX'
     },
 
@@ -16,11 +11,8 @@ module.exports = {
         //Private Message Information.
         //If you set false, the bot will not send private message information to members who join the giveaway, for example.
         privateMessageInformation: true,
-        // Role ID which will be able to create giveaways
         giveawaysManagerRole: 'XXX',
-        // When a giveaway is created the bot pings everyone (true or false)
         everyoneMention: false,
-        // You can choose a custom reaction
         reaction: '🎉'
     },
     
